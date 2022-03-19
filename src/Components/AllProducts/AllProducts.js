@@ -13,9 +13,9 @@ const AllProducts = ({addToCart,removeFromCart}) => {
     return (
         <div>
             <h1 className="mt-3">All Products</h1>
-            {/* {
+            {
                 products.map(product =>console.log(product))
-            } */}
+            }
             <div className=" row container">
             
             {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Modal from '../Modal/Modal';
+import ReactModal from '../ReactModal/ReactModal';
 import './SingleProduct.css'
 
 const SingleProduct = (props) => {
@@ -13,7 +13,7 @@ const SingleProduct = (props) => {
                 <div className="d-flex ps-2  justify-content-between">
                 <button onClick={addToCart} className="btn-primary w-25">Add</button>
                 <button onClick={removeFromCart} className="btn-danger w-25">Remove</button>
-                <Modal>Details</Modal>
+                <ReactModal product={props.product} ></ReactModal>
                 </div> 
                 
             </div>
